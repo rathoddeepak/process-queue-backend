@@ -165,5 +165,5 @@ io.on("connection", (socket) => {
 });
 
 server.listen(port, () => {
-  console.log(`Listening Server and socket io on :${port}`);
+  console.log(`Listening on :${port}`);
 });
